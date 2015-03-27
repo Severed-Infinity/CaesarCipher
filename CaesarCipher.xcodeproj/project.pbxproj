@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5B4E87A1AC4C89200C012B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5B4E8791AC4C89200C012B0 /* main.cpp */; };
+		E5B4E8821AC4C8CA00C012B0 /* CaesarCipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5B4E8801AC4C8CA00C012B0 /* CaesarCipher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E5B4E8761AC4C89200C012B0 /* CaesarCipher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CaesarCipher; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B4E8791AC4C89200C012B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E5B4E8801AC4C8CA00C012B0 /* CaesarCipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CaesarCipher.cpp; sourceTree = "<group>"; };
+		E5B4E8811AC4C8CA00C012B0 /* CaesarCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = CaesarCipher.h; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E5B4E8791AC4C89200C012B0 /* main.cpp */,
+				E5B4E8801AC4C8CA00C012B0 /* CaesarCipher.cpp */,
+				E5B4E8811AC4C8CA00C012B0 /* CaesarCipher.h */,
 			);
 			path = CaesarCipher;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B4E87A1AC4C89200C012B0 /* main.cpp in Sources */,
+				E5B4E8821AC4C8CA00C012B0 /* CaesarCipher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
